@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Open sans';
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#263343;
+    padding: 8px 6px;
+    
+}
+
+p.title {
+    font-size: 30px;
+    color: white;
+    margin: 2px 10px;
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+}
+
+#startButton{
+    /* visibility: hidden; */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+
+    
+    margin: 25vh auto;
+    padding: 2rem 4rem;
+
+    font-family: "omyu_pretty", sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+
+    display: inline-block;
+    width: auto;
+    height: auto;
+    display:block;
+
+    border: none;
+    border-radius: 4px;
+
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color:burlywood;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+
+#bluetoothButton{
+    visibility: hidden;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+
+    
+    margin: 25vh auto;
+    padding: 2rem 4rem;
+
+    font-family: "omyu_pretty", sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+
+    display: inline-block;
+    width: auto;
+    height: auto;
+    display:block;
+
+    border: none;
+    border-radius: 4px;
+
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color:burlywood;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+#recordButton{
+    visibility: hidden;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+
+    
+    margin: 25vh auto 3vh auto;
+    padding: 2rem 4rem;
+
+    font-family: "omyu_pretty", sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+
+    display: inline-block;
+    width: auto;
+    height: auto;
+    display:block;
+
+    border: none;
+    border-radius: 4px;
+
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color:burlywood;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+
+
+#recordText {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    display: block;
+
+    margin: 2vh auto;
+    padding: 2rem 4rem;
+    text-align: center;
+    font-family: "SUITE-Regular";
+    font-size: 3rem;
+}
+
+#bluetoothButton {
+    visibility: hidden;
+}
+
+#startSpeakingButton {
+    visibility: hidden;
+}
+
+#mouthvideodiv {
+    visibility: hidden;
+}
+
+#timerText {
+    
+    padding: 2rem 4rem;
+
+    font-family: "omyu_pretty", sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#timer {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+
+
+    margin: 2vh auto;
+    padding: 2rem 4rem;
+
+    font-family: "omyu_pretty", sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+
+    display: inline-block;
+    width: auto;
+    height: auto;
+    display: block;
+
+    border: none;
+    border-radius: 4px;
+
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: burlywood;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+
+}
+
+#start {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+
+
+    margin: 25vh auto;
+    padding: 2rem 4rem;
+
+    font-family: "omyu_pretty", sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+
+    display: inline-block;
+    width: auto;
+    height: auto;
+    display: block;
+
+    border: none;
+    border-radius: 4px;
+
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: burlywood;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
